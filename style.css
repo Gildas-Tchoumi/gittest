@@ -17,6 +17,8 @@ header{
     height: 90px;
     justify-content: space-between;
     align-items: center;
+    animation-delay: 2s;
+    animation: animation2 2s linear;
 }
 header h4{
     font-size: 18px;
@@ -111,6 +113,7 @@ header a:hover::after{
     border-radius: 50%;
     animation-delay: 2s;
     animation: animation1 2s linear;
+    
 }
 .right_home img:hover{
     transform: rotateY(180deg);
@@ -138,5 +141,10 @@ header a:hover::after{
     from{
         transform: translateX(-600px);
     }
-    
+ }
+
+ @keyframes animation2 {
+    from{
+        transform: translateY(-100px);
+    }
  }
