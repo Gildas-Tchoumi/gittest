@@ -131,6 +131,9 @@ nav li:hover::after {
     border-radius: 10px;
     cursor: pointer;
 }
+.fa-shopping-cart {
+    cursor: pointer;
+}
 
 /* ************************fin header************************************ */
 /* ****************************catégories-start******************************** */
